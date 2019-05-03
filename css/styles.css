@@ -11,3 +11,10 @@ header{
 .header{
     padding-top: 15%;
 }
+mouse{
+    position: absolute;
+    bottom: 10px;
+}
+.about{
+    text-align: center;
+}
