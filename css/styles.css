@@ -37,3 +37,10 @@ mouse{
 .design p, .development p, .project p{
     display:none;
 }
+.projects{
+    display: flex;
+    justify-content: space-around;
+}
+.activities h2{
+    text-align: center;
+}
