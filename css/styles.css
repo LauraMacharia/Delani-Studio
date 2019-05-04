@@ -44,3 +44,34 @@ mouse{
 .activities h2{
     text-align: center;
 }
+.portfolio h2{
+    text-align: center;
+    font-size: 30px;
+}
+.portfolio img{
+    width: 200px;
+    height: 200px;
+    padding-bottom: 20px;
+}
+.contacts{
+    text-align: center;
+    background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    color: white;
+}
+.contacts{
+    padding-top: 10%;
+}
+input{
+    background-color: transparent;
+}
+textarea{
+    background-color: transparent;
+}
+.icons{
+    text-align: center;
+}
