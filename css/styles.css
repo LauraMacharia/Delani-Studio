@@ -34,9 +34,6 @@ mouse{
     padding-top: 20%;
     font-size: 20px;
 }
-.design p, .development p, .project p{
-    display:none;
-}
 .projects{
     display: flex;
     justify-content: space-around;
@@ -47,6 +44,10 @@ mouse{
 .portfolio h2{
     text-align: center;
     font-size: 30px;
+}
+.portfolio{
+    padding-left: 6%;
+    padding-right: 6%;
 }
 .portfolio img{
     width: 200px;
@@ -74,4 +75,13 @@ textarea{
 }
 .icons{
     text-align: center;
+}
+.activities{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.design-showing, .development-showing, .product-showing{
+    display: none;
 }
