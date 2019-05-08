@@ -1,9 +1,15 @@
 $(document).ready(function(){
-    $(".clickable").click(function(){
-        $(this).children(".hide").toggle();
-        $(this).children("img").toggle();
+    $(".design").click(function(){
+        $(".design-showing").toggle();
+        $(".design-hidden").toggle();
     })
-})
+    $(".development").click(function(){
+        $(".development-showing").toggle();
+        $(".development-hidden").toggle();
+    })
+    $(".product").click(function(){
+        $(".product-showing").toggle();
+        $(".product-hidden").toggle();
+    });
+});
 
-document.getElementById("send")
-alert = ("We have received your message. Thank you for reaching out to us.")
