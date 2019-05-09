@@ -61,17 +61,26 @@ mouse{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     color: white;
 }
 .contacts{
-    padding-top: 10%;
+    padding-top: 20%;
 }
 input{
     background-color: transparent;
+    border-radius: 10px;
+    padding: 4px 20px;
 }
 textarea{
     background-color: transparent;
+    border-radius: 10px;
+    width: 300px;
+    height: 150px;
+}
+::placeholder {
+    color: rgba(245, 245, 220, 0.61);
+    text-align: center;
 }
 .icons{
     text-align: center;
@@ -84,4 +93,18 @@ textarea{
 }
 .design-showing, .development-showing, .product-showing{
     display: none;
+}
+.blur{
+	-webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+	opacity: 0.8;
+}
+footer{
+    text-align: center;
+}
+.icons{
+    padding-top: 10%;
 }
