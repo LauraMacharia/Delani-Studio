@@ -7,8 +7,8 @@
     <title>DELANI STUDIO</title>
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-    <script src="js/jquery-3.4.0.js"></script>
-   <script src="js/scripts.js"></script>
+    
+  
 </head>
 <body>
         <header>
@@ -78,28 +78,28 @@
             <h2>PORTFOLIO</h2>
             <div class="row">
                 <div class="col-md-3">
-            <img src="./images/work4.jpg">
+            <img class="blur" src="./images/work4.jpg">
             </div>
             <div class="col-md-3">
-            <img src="./images/work3.jpg">
+            <img class="blur" src="./images/work3.jpg">
             </div>
             <div class="col-md-3">
-            <img src="./images/work2.jpg">
+            <img class="blur" src="./images/work2.jpg">
             </div>
             <div class="col-md-3">
-            <img src="./images/work1.jpg">
+            <img class="blur" src="./images/work1.jpg">
             </div>
             <div class="col-md-3">
-            <img src="./images/work5.jpg">
+            <img class="blur" src="./images/work5.jpg">
             </div>
             <div class="col-md-3">
-            <img src="./images/work6.jpg">
+            <img class="blur" src="./images/work6.jpg">
             </div>
             <div class="col-md-3">
-            <img src="./images/work7.jpg">
+            <img class="blur" src="./images/work7.jpg">
             </div>
             <div class="col-md-3">
-            <img src="./images/work8.jpg">
+            <img class="blur" src="./images/work8.jpg">
             </div>
         </div>
         </div>
@@ -108,18 +108,18 @@
             <form>
                 <div>
                     <label for="name">Name:</label>
-                    <input type="text" name="user_name">
+                    <input type="text" id="inpt" name="user_name" placeholder="Enter name">
                 </div>
                 <div>
                     <label for="mail">e-mail</label>
-                    <input type="text" name="user_mail">
+                    <input type="text" name="user_mail" placeholder="Enter E-mail address">
                 </div>
                 <div>
                     <label for="msg">Message</label>
-                    <textarea name="user_message" id="msg" ></textarea>
+                    <textarea name="user_message" id="msg" placeholder="Enter message"></textarea>
                 </div>
             </form>
-            <button class="button" type="submit" id="send">SUBMIT</button>
+            <input type="submit" class="button" placeholder="submit" id="send">
 
         </div>
         <div class="icons">
@@ -137,5 +137,8 @@
             <p>DELANI STUDIO<br>
             2016</p>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="js/scripts.js"></script>
+        
 </body>
 </html>
